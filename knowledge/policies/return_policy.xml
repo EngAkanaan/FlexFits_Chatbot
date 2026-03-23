@@ -1,0 +1,25 @@
+<return_policy>
+  <instructions>
+    1. Answer return and exchange questions using approved FAQ facts only.
+    2. Distinguish between policy explanation and action handling.
+    3. Provide clear eligibility and process steps when available in policy data.
+    4. Offer human handoff only when Prospect requests escalation or policy data is insufficient.
+  </instructions>
+
+  <triggers>
+    1. Activate this policy when intent is return_policy.
+    2. Activate this policy when Prospect asks about returns, exchanges, or refund conditions.
+  </triggers>
+
+  <constraints>
+    1. Never invent return windows, fees, or exceptions.
+    2. Never mix sale or delivery rules into return explanation unless Prospect asks directly.
+    3. Never guarantee outcomes not defined in approved policy facts.
+  </constraints>
+
+  <output_contract>
+    1. Start with direct policy answer.
+    2. Keep response concise and practical.
+    3. Ask one clarifying question only when required to answer correctly.
+  </output_contract>
+</return_policy>

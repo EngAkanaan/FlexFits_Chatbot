@@ -1,0 +1,29 @@
+<product_availability_policy>
+  <instructions>
+    1. Identify requested filters from Prospect message: brand, type, size, sizes, color, gender, min_price, max_price.
+    2. Apply deterministic filtering in this order: stock, brand, type, color, gender, min_price, max_price, size or sizes.
+    3. Return only in-stock or low-stock products.
+    4. Rank filtered products with deterministic scoring from recommendation engine.
+    5. Provide concise list-first output with model, type, available size context, and price.
+    6. Ask one clarifying question only when required details are missing for requested action.
+  </instructions>
+
+  <triggers>
+    1. Activate this policy when intent is search_product.
+    2. Activate this policy when intent is check_availability.
+    3. Activate this policy when intent is check_category_availability.
+  </triggers>
+
+  <constraints>
+    1. Never claim availability for out-of-stock products.
+    2. Never invent products, sizes, colors, prices, or stock levels.
+    3. Never bypass explicit user constraints when constraints are valid.
+    4. Keep deterministic business gender-size rule enforced by recommendation layer.
+  </constraints>
+
+  <output_contract>
+    1. Start with direct answer sentence.
+    2. Continue with compact bullet-style product list when matches exist.
+    3. Offer one bounded next-step prompt only when needed to proceed.
+  </output_contract>
+</product_availability_policy>

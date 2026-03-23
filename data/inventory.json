@@ -1,0 +1,559 @@
+[
+  {
+    "Product_ID": "adidas-galaxy-6",
+    "Name_of_Product": "Galaxy 6",
+    "SIZE": [
+      42,
+      38
+    ],
+    "Name_of_Brand": "Adidas",
+    "Type": "Running Shoes",
+    "Cost": 60,
+    "Price": 60,
+    "Stock": 1,
+    "Status": "in_stock",
+    "Items_Sold": 1,
+    "Items_LEFT_in_stock": 1,
+    "Category": "Running Shoes",
+    "Pictures": [],
+    "Description": ""
+  },
+  {
+    "Product_ID": "adidas-bounce-43.3",
+    "Name_of_Product": "Bounce",
+    "SIZE": [
+      43.3
+    ],
+    "Name_of_Brand": "Adidas",
+    "Type": "Running Shoes",
+    "Cost": 55,
+    "Price": 55,
+    "Stock": 0,
+    "Status": "out_of_stock",
+    "Items_Sold": 1,
+    "Items_LEFT_in_stock": 0,
+    "Category": "Running Shoes",
+    "Pictures": [],
+    "Description": ""
+  },
+  {
+    "Product_ID": "adidas-grandcourt B",
+    "Name_of_Product": "Grand Court Black",
+    "SIZE": [
+      41.3
+    ],
+    "Name_of_Brand": "Adidas",
+    "Type": "Casual",
+    "Cost": 80,
+    "Price": 80,
+    "Stock": 0,
+    "Status": "out_of_stock",
+    "Items_Sold": 1,
+    "Items_LEFT_in_stock": 0,
+    "Category": "Casual",
+    "Pictures": [],
+    "Description": ""
+  },
+  {
+    "Product_ID": "adidas-grandcourt G",
+    "Name_of_Product": "Grand Court Grey",
+    "SIZE": [
+      39.5,
+      40
+    ],
+    "Name_of_Brand": "Adidas",
+    "Type": "Casual",
+    "Cost": 75,
+    "Price": 75,
+    "Stock": 1,
+    "Status": "in_stock",
+    "Items_Sold": 1,
+    "Items_LEFT_in_stock": 1,
+    "Category": "Casual",
+    "Pictures": [],
+    "Description": ""
+  },
+  {
+    "Product_ID": "adidas-runfalcon5",
+    "Name_of_Product": "Run Falcon 5",
+    "SIZE": [
+      40,
+      41,
+      42.5,
+      44,
+      46
+    ],
+    "Name_of_Brand": "Adidas",
+    "Type": "Running Shoes",
+    "Cost": 70,
+    "Price": 70,
+    "Stock": 3,
+    "Status": "in_stock",
+    "Items_Sold": 8,
+    "Items_LEFT_in_stock": 3,
+    "Category": "Running Shoes",
+    "Pictures": [],
+    "Description": ""
+  },
+  {
+    "Product_ID": "adidas-terrex-45",
+    "Name_of_Product": "TERREX",
+    "SIZE": [
+      45
+    ],
+    "Name_of_Brand": "Adidas",
+    "Type": "Hiking Shoes",
+    "Cost": 80,
+    "Price": 80,
+    "Stock": 1,
+    "Status": "in_stock",
+    "Items_Sold": 5,
+    "Items_LEFT_in_stock": 1,
+    "Category": "Hiking Shoes",
+    "Pictures": [],
+    "Description": ""
+  },
+  {
+    "Product_ID": "adidas-vlcourtB",
+    "Name_of_Product": "VL Court Base Black",
+    "SIZE": [
+      43.3
+    ],
+    "Name_of_Brand": "Adidas",
+    "Type": "Casual",
+    "Cost": 75,
+    "Price": 75,
+    "Stock": 1,
+    "Status": "in_stock",
+    "Items_Sold": 7,
+    "Items_LEFT_in_stock": 1,
+    "Category": "Casual",
+    "Pictures": [],
+    "Description": ""
+  },
+  {
+    "Product_ID": "adidas-vlcourtW",
+    "Name_of_Product": "VL Court Base White",
+    "SIZE": [
+      44
+    ],
+    "Name_of_Brand": "Adidas",
+    "Type": "Casual",
+    "Cost": 75,
+    "Price": 75,
+    "Stock": 1,
+    "Status": "in_stock",
+    "Items_Sold": 4,
+    "Items_LEFT_in_stock": 1,
+    "Category": "Casual",
+    "Pictures": [],
+    "Description": ""
+  },
+  {
+    "Product_ID": "asics-gel-culumus-25",
+    "Name_of_Product": "Gel-Cumulus 25",
+    "SIZE": [
+      39
+    ],
+    "Name_of_Brand": "Asics",
+    "Type": "Running Shoes",
+    "Cost": 75,
+    "Price": 75,
+    "Stock": 1,
+    "Status": "in_stock",
+    "Items_Sold": 2,
+    "Items_LEFT_in_stock": 1,
+    "Category": "Running Shoes",
+    "Pictures": [],
+    "Description": ""
+  },
+  {
+    "Product_ID": "asics-ffblast",
+    "Name_of_Product": "FF Blast+",
+    "SIZE": [
+      41.5,
+      42,
+      44
+    ],
+    "Name_of_Brand": "Asics",
+    "Type": "Running Shoes",
+    "Cost": 55,
+    "Price": 55,
+    "Stock": 0,
+    "Status": "out_of_stock",
+    "Items_Sold": 3,
+    "Items_LEFT_in_stock": 0,
+    "Category": "Running Shoes",
+    "Pictures": [],
+    "Description": ""
+  },
+  {
+    "Product_ID": "asics-gelkayano28",
+    "Name_of_Product": "GEL-Kayano 28",
+    "SIZE": [
+      41.5,
+      44,
+      40
+    ],
+    "Name_of_Brand": "Asics",
+    "Type": "Running Shoes",
+    "Cost": 39,
+    "Price": 39,
+    "Stock": 1,
+    "Status": "in_stock",
+    "Items_Sold": 3,
+    "Items_LEFT_in_stock": 1,
+    "Category": "Running Shoes",
+    "Pictures": [],
+    "Description": ""
+  },
+  {
+    "Product_ID": "asics-gelnimbus23",
+    "Name_of_Product": "GEL-Nimbus 23",
+    "SIZE": [
+      42,
+      43.5,
+      44,
+      45
+    ],
+    "Name_of_Brand": "Asics",
+    "Type": "Running Shoes",
+    "Cost": 39,
+    "Price": 39,
+    "Stock": 4,
+    "Status": "in_stock",
+    "Items_Sold": 4,
+    "Items_LEFT_in_stock": 4,
+    "Category": "Running Shoes",
+    "Pictures": [],
+    "Description": ""
+  },
+  {
+    "Product_ID": "asics-gelnimbus24",
+    "Name_of_Product": "GEL-Nimbus 24",
+    "SIZE": [
+      43.5
+    ],
+    "Name_of_Brand": "Asics",
+    "Type": "Running Shoes",
+    "Cost": 39,
+    "Price": 39,
+    "Stock": 1,
+    "Status": "in_stock",
+    "Items_Sold": 2,
+    "Items_LEFT_in_stock": 1,
+    "Category": "Running Shoes",
+    "Pictures": [],
+    "Description": ""
+  },
+  {
+    "Product_ID": "champion-r&b&w",
+    "Name_of_Product": "Champion",
+    "SIZE": [
+      44
+    ],
+    "Name_of_Brand": "Champion",
+    "Type": "Casual",
+    "Cost": 39,
+    "Price": 39,
+    "Stock": 1,
+    "Status": "in_stock",
+    "Items_Sold": 4,
+    "Items_LEFT_in_stock": 1,
+    "Category": "Casual",
+    "Pictures": [],
+    "Description": ""
+  },
+  {
+    "Product_ID": "newbalance-woman",
+    "Name_of_Product": "New Balance",
+    "SIZE": [
+      37
+    ],
+    "Name_of_Brand": "New Balance",
+    "Type": "Casual",
+    "Cost": 39,
+    "Price": 39,
+    "Stock": 1,
+    "Status": "in_stock",
+    "Items_Sold": 5,
+    "Items_LEFT_in_stock": 1,
+    "Category": "Casual",
+    "Pictures": [],
+    "Description": ""
+  },
+  {
+    "Product_ID": "newbalance-574",
+    "Name_of_Product": "574M",
+    "SIZE": [
+      42,
+      42.5
+    ],
+    "Name_of_Brand": "New Balance",
+    "Type": "Casual",
+    "Cost": 39,
+    "Price": 39,
+    "Stock": 3,
+    "Status": "in_stock",
+    "Items_Sold": 7,
+    "Items_LEFT_in_stock": 3,
+    "Category": "Casual",
+    "Pictures": [],
+    "Description": ""
+  },
+  {
+    "Product_ID": "newbalance-860m-45",
+    "Name_of_Product": "860M",
+    "SIZE": [
+      45
+    ],
+    "Name_of_Brand": "New Balance",
+    "Type": "Running Shoes",
+    "Cost": 65,
+    "Price": 65,
+    "Stock": 1,
+    "Status": "in_stock",
+    "Items_Sold": 66,
+    "Items_LEFT_in_stock": 1,
+    "Category": "Running Shoes",
+    "Pictures": [],
+    "Description": ""
+  },
+  {
+    "Product_ID": "newbalance-860w-41",
+    "Name_of_Product": "860W",
+    "SIZE": [
+      41,
+      40.5
+    ],
+    "Name_of_Brand": "New Balance",
+    "Type": "Running Shoes",
+    "Cost": 65,
+    "Price": 65,
+    "Stock": 0,
+    "Status": "out_of_stock",
+    "Items_Sold": 48,
+    "Items_LEFT_in_stock": 0,
+    "Category": "Running Shoes",
+    "Pictures": [],
+    "Description": ""
+  },
+  {
+    "Product_ID": "newbalance-997h",
+    "Name_of_Product": "997H",
+    "SIZE": [
+      40
+    ],
+    "Name_of_Brand": "New Balance",
+    "Type": "Casual",
+    "Cost": 39,
+    "Price": 39,
+    "Stock": 1,
+    "Status": "in_stock",
+    "Items_Sold": 70,
+    "Items_LEFT_in_stock": 1,
+    "Category": "Casual",
+    "Pictures": [],
+    "Description": ""
+  },
+  {
+    "Product_ID": "rocktail-rocky-42",
+    "Name_of_Product": "Rocky",
+    "SIZE": [
+      42
+    ],
+    "Name_of_Brand": "Rocktail",
+    "Type": "Hiking Shoes",
+    "Cost": 39,
+    "Price": 39,
+    "Stock": 1,
+    "Status": "in_stock",
+    "Items_Sold": 5,
+    "Items_LEFT_in_stock": 1,
+    "Category": "Hiking Shoes",
+    "Pictures": [],
+    "Description": ""
+  },
+  {
+    "Product_ID": "oc-oncloud-39",
+    "Name_of_Product": "OnCloud",
+    "SIZE": [
+      39
+    ],
+    "Name_of_Brand": "Oc",
+    "Type": "Running Shoes",
+    "Cost": 85,
+    "Price": 85,
+    "Stock": 0,
+    "Status": "out_of_stock",
+    "Items_Sold": 60,
+    "Items_LEFT_in_stock": 0,
+    "Category": "Running Shoes",
+    "Pictures": [],
+    "Description": ""
+  },
+  {
+    "Product_ID": "puma-CSL",
+    "Name_of_Product": "Puma Court Shatter Low",
+    "SIZE": [
+      42
+    ],
+    "Name_of_Brand": "Puma",
+    "Type": "Casual",
+    "Cost": 65,
+    "Price": 65,
+    "Stock": 1,
+    "Status": "in_stock",
+    "Items_Sold": 5,
+    "Items_LEFT_in_stock": 1,
+    "Category": "Casual",
+    "Pictures": [],
+    "Description": ""
+  },
+  {
+    "Product_ID": "puma-pumablack",
+    "Name_of_Product": "Puma Black",
+    "SIZE": [
+      40
+    ],
+    "Name_of_Brand": "Puma",
+    "Type": "Running Shoes",
+    "Cost": 39,
+    "Price": 39,
+    "Stock": 1,
+    "Status": "in_stock",
+    "Items_Sold": 68,
+    "Items_LEFT_in_stock": 1,
+    "Category": "Running Shoes",
+    "Pictures": [],
+    "Description": ""
+  },
+  {
+    "Product_ID": "puma-blackwhiteorange-42",
+    "Name_of_Product": "BlackWhiteOrange",
+    "SIZE": [
+      42
+    ],
+    "Name_of_Brand": "Puma",
+    "Type": "Running Shoes",
+    "Cost": 40,
+    "Price": 40,
+    "Stock": 0,
+    "Status": "out_of_stock",
+    "Items_Sold": 52,
+    "Items_LEFT_in_stock": 0,
+    "Category": "Running Shoes",
+    "Pictures": [],
+    "Description": ""
+  },
+  {
+    "Product_ID": "nike-courtvisionlow-fw",
+    "Name_of_Product": "Court Vision Low FW",
+    "SIZE": [
+      42,
+      43,
+      44
+    ],
+    "Name_of_Brand": "Nike",
+    "Type": "Casual",
+    "Cost": 80,
+    "Price": 80,
+    "Stock": 3,
+    "Status": "in_stock",
+    "Items_Sold": 20,
+    "Items_LEFT_in_stock": 3,
+    "Category": "Casual",
+    "Pictures": [],
+    "Description": ""
+  },
+  {
+    "Product_ID": "hoka-arhi6-42",
+    "Name_of_Product": "Arhi 6",
+    "SIZE": [
+      42
+    ],
+    "Name_of_Brand": "Hoka",
+    "Type": "Running Shoes",
+    "Cost": 39,
+    "Price": 39,
+    "Stock": 1,
+    "Status": "in_stock",
+    "Items_Sold": 7,
+    "Items_LEFT_in_stock": 1,
+    "Category": "Running Shoes",
+    "Pictures": [],
+    "Description": ""
+  },
+  {
+    "Product_ID": "hoka-clifton9-40",
+    "Name_of_Product": "Clifton 9",
+    "SIZE": [
+      40
+    ],
+    "Name_of_Brand": "Hoka",
+    "Type": "Running Shoes",
+    "Cost": 35,
+    "Price": 35,
+    "Stock": 0,
+    "Status": "out_of_stock",
+    "Items_Sold": 4,
+    "Items_LEFT_in_stock": 0,
+    "Category": "Running Shoes",
+    "Pictures": [],
+    "Description": ""
+  },
+  {
+    "Product_ID": "ua-underarmour-39",
+    "Name_of_Product": "UnderArmour",
+    "SIZE": [
+      39
+    ],
+    "Name_of_Brand": "Ua",
+    "Type": "Running Shoes",
+    "Cost": 60,
+    "Price": 60,
+    "Stock": 0,
+    "Status": "out_of_stock",
+    "Items_Sold": 5,
+    "Items_LEFT_in_stock": 0,
+    "Category": "Running Shoes",
+    "Pictures": [],
+    "Description": ""
+  },
+  {
+    "Product_ID": "fila-fila-41",
+    "Name_of_Product": "Fila",
+    "SIZE": [
+      41
+    ],
+    "Name_of_Brand": "Fila",
+    "Type": "Casual",
+    "Cost": 39,
+    "Price": 39,
+    "Stock": 1,
+    "Status": "in_stock",
+    "Items_Sold": 0,
+    "Items_LEFT_in_stock": 1,
+    "Category": "Casual",
+    "Pictures": [],
+    "Description": ""
+  },
+  {
+    "Product_ID": "sacony-pwrrun-42.5",
+    "Name_of_Product": "PwrRun",
+    "SIZE": [
+      42.5
+    ],
+    "Name_of_Brand": "Sacony",
+    "Type": "Running Shoes",
+    "Cost": 39,
+    "Price": 39,
+    "Stock": 1,
+    "Status": "in_stock",
+    "Items_Sold": 46,
+    "Items_LEFT_in_stock": 1,
+    "Category": "Running Shoes",
+    "Pictures": [],
+    "Description": ""
+  }
+]

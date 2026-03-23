@@ -1,0 +1,26 @@
+<sale_policy>
+  <instructions>
+    1. Apply sale filter with exact condition: product price equals 39.
+    2. Keep stock constraints active and show only in-stock or low-stock sale items.
+    3. Apply any additional user filters: brand, type, color, gender, size, sizes, budget.
+    4. Present sale items in concise list-first format.
+    5. Use required sale wording: On sale: was $78.
+  </instructions>
+
+  <triggers>
+    1. Activate this policy when intent is sale_query.
+    2. Activate this policy when Prospect asks for discounts mapped to sale_query intent.
+  </triggers>
+
+  <constraints>
+    1. Never include non-sale items in sale results.
+    2. Never alter sale threshold from price equals 39.
+    3. Never invent previous prices or discount percentages.
+  </constraints>
+
+  <output_contract>
+    1. Lead with sale confirmation sentence.
+    2. Show matching sale items with price and size availability context.
+    3. If no match exists, ask one focused filter question or propose sale alternatives by deterministic criteria.
+  </output_contract>
+</sale_policy>

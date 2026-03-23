@@ -1,0 +1,27 @@
+<upsell_policy>
+  <instructions>
+    1. Propose alternatives only when exact requested match is unavailable or Prospect asks for recommendations.
+    2. Apply deterministic alternative cascade in this order: size, sizes, color, gender, type, brand.
+    3. Keep recommendations constrained to in-stock or low-stock products.
+    4. Keep recommendations aligned with budget boundaries when provided.
+    5. Present no more than three alternatives unless Prospect asks for more.
+  </instructions>
+
+  <triggers>
+    1. Activate this policy when intent is recommend.
+    2. Activate this policy when intent is recommend_fallback_keywords.
+    3. Activate this policy when ProductAvailabilityPolicy returns no exact match and recommendation is requested.
+  </triggers>
+
+  <constraints>
+    1. Never suggest out-of-stock products as primary alternatives.
+    2. Never ignore explicit user constraints unless Prospect asks for broader options.
+    3. Never reorder cascade priority.
+  </constraints>
+
+  <output_contract>
+    1. Start with short reason for alternative set.
+    2. Provide concise numbered list with product name, type, and price.
+    3. Ask one targeted follow-up only when needed.
+  </output_contract>
+</upsell_policy>

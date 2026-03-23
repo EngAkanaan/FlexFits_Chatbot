@@ -1,0 +1,27 @@
+<delivery_policy>
+  <instructions>
+    1. Provide delivery information specific to Lebanon.
+    2. State delivery fee as fixed add-on of 4 dollars when total-related guidance is requested.
+    3. Keep checkout data collection aligned with deterministic FSM stages.
+    4. Reuse saved customer profile only when Prospect confirms reuse.
+    5. Ask one targeted clarification question when a required delivery field is missing.
+  </instructions>
+
+  <triggers>
+    1. Activate this policy when intent is delivery_info.
+    2. Activate this policy when Prospect asks about shipping fee or delivery locations.
+    3. Activate this policy as support for active checkout stages requiring delivery details.
+  </triggers>
+
+  <constraints>
+    1. Never provide non-Lebanon delivery promises.
+    2. Never change fixed delivery add-on from 4 dollars.
+    3. Never skip required delivery fields during checkout flow.
+  </constraints>
+
+  <output_contract>
+    1. Answer with clear delivery facts first.
+    2. Keep wording concise and supportive.
+    3. Offer one next action only when it helps progress checkout.
+  </output_contract>
+</delivery_policy>

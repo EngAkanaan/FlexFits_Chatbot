@@ -1,0 +1,365 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<intents>
+  <intent name="greeting" display_name="Greeting">
+    <triggers>
+      <pattern>hi</pattern>
+      <pattern>hello</pattern>
+      <pattern>hey</pattern>
+      <pattern>good morning</pattern>
+      <pattern>good afternoon</pattern>
+      <pattern>good evening</pattern>
+      <pattern>marhaba</pattern>
+      <pattern>ahlan</pattern>
+      <pattern>salam</pattern>
+      <pattern>mar7aba</pattern>
+      <pattern>salam alaykom</pattern>
+      <pattern>salam alaykum</pattern>
+      <pattern>مرحبا</pattern>
+      <pattern>اهلا</pattern>
+      <pattern>أهلا</pattern>
+      <pattern>هلا</pattern>
+      <pattern>صباح الخير</pattern>
+      <pattern>مسا الخير</pattern>
+      <pattern>السلام عليكم</pattern>
+      <pattern>وعليكم السلام</pattern>
+    </triggers>
+    <response>Hi, I'm Nelly from FLEX Fits. Tell me your preferred style, size, and budget—I'll help you find the perfect pair fast.</response>
+  </intent>
+
+  <intent name="small_talk" display_name="Small Talk">
+    <triggers>
+      <pattern>how are you</pattern>
+      <pattern>how r u</pattern>
+      <pattern>what's up</pattern>
+      <pattern>kifik</pattern>
+      <pattern>كيفك</pattern>
+      <pattern>shu el akhbar</pattern>
+      <pattern>شو الاخبار</pattern>
+      <pattern>كيف الحال</pattern>
+      <pattern>شو الأخبار</pattern>
+      <pattern>kifak</pattern>
+      <pattern>kifek</pattern>
+      <pattern>kifkon</pattern>
+      <pattern>shu l akhbar</pattern>
+      <pattern>akhbarak</pattern>
+    </triggers>
+    <response>I'm doing great! Ready to help you find amazing shoes. What are you looking for today?</response>
+  </intent>
+
+  <intent name="thank_you" display_name="Thank You">
+    <triggers>
+      <pattern>thank you</pattern>
+      <pattern>thanks</pattern>
+      <pattern>thank uou</pattern>
+      <pattern>thnx</pattern>
+      <pattern>thanks a lot</pattern>
+      <pattern>شكرا</pattern>
+      <pattern>شكراً</pattern>
+    </triggers>
+    <response>You're welcome! Anything else I can help with?</response>
+  </intent>
+
+  <intent name="goodbye" display_name="Goodbye">
+    <triggers>
+      <pattern>goodbye</pattern>
+      <pattern>bye</pattern>
+      <pattern>see you</pattern>
+      <pattern>see you later</pattern>
+      <pattern>talk soon</pattern>
+      <pattern>farewell</pattern>
+      <pattern>take care</pattern>
+      <pattern>maa salama</pattern>
+      <pattern>مع السلامة</pattern>
+    </triggers>
+    <response>See you later! Come back soon for great shoes. 👟</response>
+  </intent>
+
+  <intent name="show_all" display_name="Show All Products">
+    <triggers>
+      <pattern>show me all</pattern>
+      <pattern>show all</pattern>
+      <pattern>all of them</pattern>
+      <pattern>show me them all</pattern>
+      <pattern>see all</pattern>
+      <pattern>list all</pattern>
+      <pattern>see them all</pattern>
+    </triggers>
+    <response>Sure! Here are all available shoes for your request.</response>
+  </intent>
+
+  <intent name="create_order" display_name="Create Order">
+    <triggers>
+      <pattern>i want</pattern>
+      <pattern>i want this one</pattern>
+      <pattern>i want it</pattern>
+      <pattern>i want both</pattern>
+      <pattern>i want shoes</pattern>
+      <pattern>i want them all</pattern>
+      <pattern>i want all of them</pattern>
+      <pattern>i need</pattern>
+      <pattern>i need this one</pattern>
+      <pattern>i need it</pattern>
+      <pattern>i need both</pattern>
+      <pattern>i need shoes</pattern>
+      <pattern>i need them all</pattern>
+      <pattern>i need all of them</pattern>
+      <pattern>please add</pattern>
+      <pattern>please add to bag</pattern>
+      <pattern>please add to cart</pattern>
+      <pattern>please add to bag both shoes</pattern>
+      <pattern>add to bag both shoes</pattern>
+      <pattern>add them to bag</pattern>
+      <pattern>add them to cart</pattern>
+      <pattern>add to cart</pattern>
+      <pattern>order</pattern>
+      <pattern>buy</pattern>
+      <pattern>purchase</pattern>
+      <pattern>checkout</pattern>
+      <pattern>add to bag</pattern>
+      <pattern>i'll take</pattern>
+      <pattern>اريد هذا الحذاء</pattern>
+      <pattern>اريد هدا الحداء</pattern>
+      <pattern>بدي هيدا الحذاء</pattern>
+      <pattern>بدي هالحذاء</pattern>
+      <pattern>badde he l shoes</pattern>
+      <pattern>badde hayda</pattern>
+      <pattern>khod hayda</pattern>
+    </triggers>
+    <response>Great! I'll help you order. Let me confirm the product and size.</response>
+  </intent>
+
+  <intent name="ask_color" display_name="Ask Color">
+    <triggers>
+      <pattern>what color</pattern>
+      <pattern>color do you have</pattern>
+      <pattern>available colors</pattern>
+      <pattern>colors available</pattern>
+    </triggers>
+    <response>What color would you prefer? I can show you options in black, white, red, blue, grey, and more.</response>
+  </intent>
+
+  <intent name="ask_size" display_name="Ask Size">
+    <triggers>
+      <pattern>what size</pattern>
+      <pattern>do you have my size</pattern>
+      <pattern>what sizes available</pattern>
+      <pattern>sizes do you have</pattern>
+    </triggers>
+    <response>What's your EU size? I support sizes 35 to 50, including half sizes like 42.5.</response>
+  </intent>
+
+  <intent name="ask_brand" display_name="Ask Brand">
+    <triggers>
+      <pattern>what brands</pattern>
+      <pattern>brands available</pattern>
+      <pattern>what do you sell</pattern>
+      <pattern>what do you have</pattern>
+    </triggers>
+    <response>We carry top brands like Adidas, Nike, Asics, New Balance, Puma, and more. What interests you?</response>
+  </intent>
+
+  <intent name="ask_type" display_name="Ask Type">
+    <triggers>
+      <pattern>shoe types</pattern>
+      <pattern>what types</pattern>
+      <pattern>running shoes</pattern>
+      <pattern>casual shoes</pattern>
+      <pattern>hiking shoes</pattern>
+      <pattern>sports shoes</pattern>
+    </triggers>
+    <response>We have running, casual, hiking, and sports shoes. What type are you looking for?</response>
+  </intent>
+
+  <intent name="ask_price" display_name="Ask Price">
+    <triggers>
+      <pattern>what price</pattern>
+      <pattern>how much</pattern>
+      <pattern>cost</pattern>
+      <pattern>prices</pattern>
+      <pattern>budget</pattern>
+      <pattern>cheapest</pattern>
+      <pattern>most expensive</pattern>
+      <pattern>السعر</pattern>
+      <pattern>شو السعر</pattern>
+      <pattern>قديش السعر</pattern>
+      <pattern>shu l se3er</pattern>
+      <pattern>shu se3er</pattern>
+      <pattern>se3er</pattern>
+    </triggers>
+    <response>Prices range from $39 to $150. What's your budget?</response>
+  </intent>
+
+  <intent name="about_authenticity" display_name="About Authenticity">
+    <triggers>
+      <pattern>are you authentic</pattern>
+      <pattern>are you original</pattern>
+      <pattern>is it real</pattern>
+      <pattern>genuine</pattern>
+      <pattern>fake</pattern>
+      <pattern>authentic</pattern>
+    </triggers>
+    <response>Yes, we are 100% authentic and original. All products are legitimate, directly from authorized distributors.</response>
+  </intent>
+
+  <intent name="about_location" display_name="About Location">
+    <triggers>
+      <pattern>where are you</pattern>
+      <pattern>your location</pattern>
+      <pattern>where are you located</pattern>
+      <pattern>your address</pattern>
+      <pattern>do you have a shop</pattern>
+    </triggers>
+    <response>We are FLEX, an online-only shoe store in Lebanon. No physical showroom yet, but one is coming very soon! Deliveries go to your home.</response>
+  </intent>
+
+  <intent name="about_showroom" display_name="About Showroom">
+    <triggers>
+      <pattern>do you have a showroom</pattern>
+      <pattern>showroom</pattern>
+      <pattern>walk in store</pattern>
+      <pattern>physical store</pattern>
+    </triggers>
+    <response>We're online-only right now, but a showroom is coming soon. For now, shop with us here on Telegram/Whatsapp and we'll deliver to your door!</response>
+  </intent>
+
+  <intent name="about_exchange" display_name="About Exchange">
+    <triggers>
+      <pattern>do you have exchange</pattern>
+      <pattern>can i exchange</pattern>
+      <pattern>exchange policy</pattern>
+      <pattern>exchange</pattern>
+    </triggers>
+    <response>We support exchanges. If your size or style doesn't fit, let me know and I'll connect you with our support team admin for exact policy details.</response>
+  </intent>
+
+  <intent name="about_refund" display_name="About Refund">
+    <triggers>
+      <pattern>do you have refund</pattern>
+      <pattern>refund policy</pattern>
+      <pattern>can i get a refund</pattern>
+      <pattern>money back</pattern>
+      <pattern>return</pattern>
+    </triggers>
+    <response>We support returns and refunds. For exact policy details, I can connect you with a support teammate who can walk you through the full process.</response>
+  </intent>
+
+  <intent name="payment_methods" display_name="Payment Methods">
+    <triggers>
+      <pattern>payment</pattern>
+      <pattern>how do you pay</pattern>
+      <pattern>do you accept</pattern>
+      <pattern>pay by</pattern>
+      <pattern>USD</pattern>
+      <pattern>LBP</pattern>
+      <pattern>dollar</pattern>
+      <pattern>lira</pattern>
+      <pattern>OMT</pattern>
+      <pattern>WHISH</pattern>
+    </triggers>
+    <response>We accept USD, LBP, OMT Wallet, and WHISH. Choose your preferred method at checkout.</response>
+  </intent>
+
+  <intent name="delivery_timeline" display_name="Delivery Timeline">
+    <triggers>
+      <pattern>how long delivery</pattern>
+      <pattern>delivery timeline</pattern>
+      <pattern>how many days</pattern>
+      <pattern>when will it arrive</pattern>
+      <pattern>delivery time</pattern>
+    </triggers>
+    <response>Delivery across Lebanon takes 4-6 business days. Delivery fee is $4 per order.</response>
+  </intent>
+
+  <intent name="sale_query" display_name="Sale Query">
+    <triggers>
+      <pattern>sale</pattern>
+      <pattern>discount</pattern>
+      <pattern>on sale</pattern>
+      <pattern>promotion</pattern>
+    </triggers>
+    <response>We have special prices on many shoes. Sale items are marked at $39. Tell me your size and style and I can show you what's available!</response>
+  </intent>
+
+  <intent name="delivery_info" display_name="Delivery Info">
+    <triggers>
+      <pattern>delivery</pattern>
+      <pattern>shipping</pattern>
+      <pattern>توصيل</pattern>
+      <pattern>شحن</pattern>
+      <pattern>delivery lebanon</pattern>
+    </triggers>
+    <response>We deliver across Lebanon in 4-6 business days for $4 per order. I'll collect your address during checkout.</response>
+  </intent>
+
+  <intent name="return_policy" display_name="Return Policy">
+    <triggers>
+      <pattern>return</pattern>
+      <pattern>return policy</pattern>
+    </triggers>
+    <response>We support returns and refunds. For exact policy details, let me connect you with our support team who can guide you through the process.</response>
+  </intent>
+
+  <intent name="help" display_name="Help">
+    <triggers>
+      <pattern>help</pattern>
+      <pattern>support</pattern>
+      <pattern>who are you</pattern>
+      <pattern>what can you do</pattern>
+      <pattern>how do you work</pattern>
+    </triggers>
+    <response>I'm Nelly, your FLEX Fits assistant. I help you find shoes by brand, size, color, type, or budget. Tell me what you're looking for!</response>
+  </intent>
+
+  <intent name="human_handoff" display_name="Human Handoff">
+    <triggers>
+      <pattern>agent</pattern>
+      <pattern>human</pattern>
+      <pattern>representative</pattern>
+      <pattern>talk to someone</pattern>
+      <pattern>speak to</pattern>
+    </triggers>
+    <response>I'll connect you with a FLEX team member. They'll respond shortly.</response>
+  </intent>
+
+  <intent name="intent_to_order" display_name="Intent to Order">
+    <triggers>
+      <pattern>i need to order</pattern>
+      <pattern>i want to order</pattern>
+      <pattern>place order</pattern>
+      <pattern>i'd like to order</pattern>
+      <pattern>بدي اطلب</pattern>
+      <pattern>بدّي اطلب</pattern>
+      <pattern>اريد اطلب</pattern>
+      <pattern>bade order</pattern>
+      <pattern>badde order</pattern>
+    </triggers>
+    <response>Sure! Do you want me to add shoes to your cart? Tell me the brand, size, and color you prefer.</response>
+  </intent>
+
+  <intent name="cancel_order" display_name="Cancel Order">
+    <triggers>
+      <pattern>cancel</pattern>
+      <pattern>cancel order</pattern>
+      <pattern>cancel my order</pattern>
+    </triggers>
+    <response>Are you sure you want to cancel your order? I can help remove items from your cart.</response>
+  </intent>
+
+  <intent name="finish_order" display_name="Finish Order">
+    <triggers>
+      <pattern>i need to finish my order</pattern>
+      <pattern>i need to finalize my order</pattern>
+      <pattern>i need to complete my order</pattern>
+      <pattern>finish my order</pattern>
+      <pattern>finalize my order</pattern>
+      <pattern>complete my order</pattern>
+      <pattern>proceed to checkout</pattern>
+    </triggers>
+    <response>Great! Let me confirm your order. Please provide your location (governate, city, area), street address, building number, name, and phone number for delivery.</response>
+  </intent>
+
+  <intent name="fallback" display_name="Fallback">
+    <triggers/>
+    <response>I can help you find shoes, check sizes, compare prices, and process orders. What would you like?</response>
+  </intent>
+</intents>
