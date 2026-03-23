@@ -1,4 +1,4 @@
-# FlexFits ChatBot V2
+# FlexFits ChatBot
 
 A production-oriented AI shoe store assistant that supports product discovery, cart flow, and checkout through local chat and Telegram, with optional Supabase order persistence.
 
@@ -41,7 +41,3 @@ A production-oriented AI shoe store assistant that supports product discovery, c
 - `data/`: static domain data (inventory, intents)
 - `knowledge/`: FAQ and policy files used by retrieval/prompting
 - `tests/`: automated test suite
-
-## Notes
-- Keep all credentials in environment variables; never commit secrets.
-- Runtime chat history/memory files are intentionally ignored via `.gitignore`.
